@@ -1,0 +1,25 @@
+body {
+  background-color: #D8BFD8;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #2E8B57;
+}
+
+h2 {
+  color: #00FA9A;
+}
+
+h3 {
+  color: DeepPink;
+}
+

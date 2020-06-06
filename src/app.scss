@@ -1,0 +1,22 @@
+$colore_sfondo: #D8BFD8;
+$colore_titolo1: #2E8B57;
+$colore_titolo2: #00FA9A;
+$colore_titolo3: DeepPink;
+body {
+    background-color: $colore_sfondo;
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1 {
+    color: $colore_titolo1;
+}
+h2 {
+    color: $colore_titolo2;
+}
+h3 {
+    color: $colore_titolo3;
+}
