@@ -1,15 +1,17 @@
-$colore_sfondo: #D8BFD8;
-$colore_titolo1: #2E8B57;
-$colore_titolo2: #00FA9A;
-$colore_titolo3: DeepPink;
+$colore_sfondo: #F8F8FF;
+$colore_titolo1: #20B2AA;
+$colore_titolo2: #C71585;
+$colore_titolo3:#4169E1 ;
+$font_family: sans-serif;
+$posizione_titolo: center;
 body {
     background-color: $colore_sfondo;
 }
 h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bold;
-    text-align: center;
-    font-family: sans-serif;
+    text-align: $posizione_titolo;
+    font-family: $font_family;
 }
 h1 {
     color: $colore_titolo1;
