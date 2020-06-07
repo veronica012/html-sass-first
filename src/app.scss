@@ -1,9 +1,8 @@
 $colore_sfondo: #F8F8FF;
-$colore_titolo1: #20B2AA;
-$colore_titolo2: #C71585;
-$colore_titolo3:#4169E1 ;
+$colore_titoli: #20B2AA;
 $font_family: sans-serif;
 $posizione_titolo: center;
+
 body {
     background-color: $colore_sfondo;
 }
@@ -12,13 +11,5 @@ h1, h2, h3 {
     font-weight: bold;
     text-align: $posizione_titolo;
     font-family: $font_family;
-}
-h1 {
-    color: $colore_titolo1;
-}
-h2 {
-    color: $colore_titolo2;
-}
-h3 {
-    color: $colore_titolo3;
+    color: $colore_titoli;
 }
